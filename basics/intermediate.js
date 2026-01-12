@@ -61,11 +61,11 @@
 
 //7. Simple async function with setTimeout
 
-async function printLate(time) {
-  await setTimeout(() => {
-    console.log("hello");
-  }, time);
-  console.log("after");
-}
-printLate(2000);
-console.log("\nend");
+// async function printLate(time) {
+//   await setTimeout(() => {
+//     console.log("hello");
+//   }, time);
+//   console.log("after");
+// }
+// printLate(2000);
+// console.log("\nend");
